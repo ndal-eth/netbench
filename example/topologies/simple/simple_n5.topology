@@ -1,0 +1,25 @@
+# Topology:
+# 0--1--2
+#    |  |
+#    3--4
+#
+# All nodes are ToRs
+
+# Details
+|V|=5
+|E|=10
+ToRs=set(0,1,2,3,4)
+Servers=set(0,1,2,3,4)
+Switches=set()
+
+# Links
+0 1
+1 0
+1 2
+2 1
+1 3
+3 1
+3 4
+4 3
+2 4
+4 2

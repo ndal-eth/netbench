@@ -1,0 +1,18 @@
+Seed randomly chosen: FALSE
+Seed: 8798237589
+OVERRODE_TOPOLOGY_FILE_WITH_SERVER_EXTENSION: servers/node=8
+ARG_OVERRIDE_PARAM(scenario_topology_file): temp/results/5_pairings_increasing/full_fat_tree_k16_actservers_480_flows_80000_runtime_6.25s_ecn_threshold_30000_intermediary_uniform_flowlet_gap_50000/extended_topology.txt
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=150000, ecnThresholdKBytes=30000)
+Network device flowlet intermediary: UNIFORM
+Network device: ECMP_SWITCH(numNodes=1344)
+Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
+Transport layer: SIMPLE_DCTCP
+Routing: ECMP
+Flow planner flow size dist.: pFabric web search upper bound discrete
+PAIRING_NUM_CHOSEN_TORS: 60
+PAIRINGS_FRACTION_CHOSEN_TORS: [(0,53), (1,24), (2,9), (3,33), (8,54), (10,29), (11,45), (14,5), (15,39), (17,26), (19,21), (22,6), (28,41), (30,49), (31,23), (32,18), (34,25), (35,16), (37,20), (40,42), (43,38), (46,51), (47,36), (48,27), (50,55), (52,12), (56,4), (57,7), (58,13), (59,44)]
+Flow planner: POISSON_ARRIVAL(lambda=80000.0, pairDistribution=PAIRINGS_FRACTION)
+Flow planner number flows: 500181
+Flow planner mean inter-arrival time: 12495
+Flow planner expected inter-arrival time: 12499.999999999998
+Flow planner poisson rate lambda (flow starts/s): 80000.0

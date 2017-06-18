@@ -1,0 +1,333 @@
+Copying file "private/runs/3_4_all_to_all_fraction/xpander_n216_d11_hybrid.properties" to run folder...
+Running command "cp private/runs/3_4_all_to_all_fraction/xpander_n216_d11_hybrid.properties temp/results/8_flowsize_pareto/fixed_R_increasing_a2a_fraction/xpander_n216_d11_hybrid_actservers_960_flows_200000_runtime_3s_ecn_threshold_30000_intermediary_uniform_flowlet_gap_50000"...
+... command has been executed (any output is shown above).
+Copying file "private/data/topologies/xpander_n216_d11.topology" to run folder using new file name "original_topology.txt"...
+Running command "cp private/data/topologies/xpander_n216_d11.topology temp/results/8_flowsize_pareto/fixed_R_increasing_a2a_fraction/xpander_n216_d11_hybrid_actservers_960_flows_200000_runtime_3s_ecn_threshold_30000_intermediary_uniform_flowlet_gap_50000/original_topology.txt"...
+... command has been executed (any output is shown above).
+Extending topology file "private/data/topologies/xpander_n216_d11.topology" by adding 5 servers to each ToR.
+Writing to output topology file... done.
+Overriding property scenario_topology_file: "private/data/topologies/xpander_n216_d11.topology" (old) -> "temp/results/8_flowsize_pareto/fixed_R_increasing_a2a_fraction/xpander_n216_d11_hybrid_actservers_960_flows_200000_runtime_3s_ecn_threshold_30000_intermediary_uniform_flowlet_gap_50000/extended_topology.txt" (new).
+
+INFRASTRUCTURE
+==================
+Finished creating infrastructure.
+
+ROUTING STATE
+==================
+Calculating shortest path lengths... done.
+Populating ECMP forward routing tables... 9.953703703703704%... 19.90740740740741%... 29.86111111111111%... 39.81481481481482%... 49.76851851851852%... 59.72222222222222%... 69.67592592592592%... 79.62962962962963%... 89.58333333333334%... 99.53703703703704%... done.
+Finished routing state setup.
+
+TRAFFIC
+==================
+Generating all-to-all pair probabilities in 88.89% fraction 216 ToRs between their servers... done.
+Creating arrival plan... 10%... 20%... 30%... 40%... 50%... 60%... 70%... 80%... 90%... 100%... done.
+Poisson Arrival plan created.
+Number of flows created: 600078.
+Mean inter-arrival time: 4999 (expectation: 5000.0)
+Finished generating traffic flow starts.
+
+ACTUAL RUN
+==================
+Starting simulation (total time: 3000000000ns);...
+Elapsed 0.01s simulation in 2.442s real (total progress: 0.33333346666666663%).
+Elapsed 0.01s simulation in 2.043s real (total progress: 0.6666669333333333%).
+Elapsed 0.01s simulation in 3.892s real (total progress: 1.0000003%).
+Elapsed 0.01s simulation in 3.032s real (total progress: 1.3333338000000001%).
+Elapsed 0.01s simulation in 2.682s real (total progress: 1.6666667%).
+Elapsed 0.01s simulation in 1.549s real (total progress: 2.000000233333333%).
+Elapsed 0.01s simulation in 1.707s real (total progress: 2.3333335%).
+Elapsed 0.01s simulation in 2.203s real (total progress: 2.6666669%).
+Elapsed 0.01s simulation in 1.466s real (total progress: 3.0000000666666664%).
+Elapsed 0.01s simulation in 1.819s real (total progress: 3.3333349666666665%).
+Elapsed 0.01s simulation in 1.33s real (total progress: 3.6666668%).
+Elapsed 0.01s simulation in 1.582s real (total progress: 4.0000001%).
+Elapsed 0.01s simulation in 1.335s real (total progress: 4.333333633333333%).
+Elapsed 0.01s simulation in 1.325s real (total progress: 4.6666667%).
+Elapsed 0.01s simulation in 1.811s real (total progress: 5.0000003%).
+Elapsed 0.01s simulation in 1.975s real (total progress: 5.333333766666667%).
+Elapsed 0.01s simulation in 2.091s real (total progress: 5.666666733333333%).
+Elapsed 0.01s simulation in 2.965s real (total progress: 6.000000266666667%).
+Elapsed 0.01s simulation in 2.096s real (total progress: 6.333333400000001%).
+Elapsed 0.01s simulation in 2.059s real (total progress: 6.666666733333333%).
+Elapsed 0.01s simulation in 2.229s real (total progress: 7.000000166666667%).
+Elapsed 0.01s simulation in 1.836s real (total progress: 7.3333333666666665%).
+Elapsed 0.01s simulation in 2.442s real (total progress: 7.666667100000001%).
+Elapsed 0.01s simulation in 2.299s real (total progress: 8.000000233333333%).
+Elapsed 0.01s simulation in 1.865s real (total progress: 8.3333338%).
+Elapsed 0.01s simulation in 1.653s real (total progress: 8.666666733333333%).
+Elapsed 0.01s simulation in 1.877s real (total progress: 9.000000133333334%).
+Elapsed 0.01s simulation in 1.666s real (total progress: 9.333333666666666%).
+Elapsed 0.01s simulation in 1.815s real (total progress: 9.666666733333333%).
+Elapsed 0.01s simulation in 2.713s real (total progress: 10.0000002%).
+Elapsed 0.01s simulation in 1.68s real (total progress: 10.333333766666666%).
+Elapsed 0.01s simulation in 2.349s real (total progress: 10.666667066666667%).
+Elapsed 0.01s simulation in 2.46s real (total progress: 11.000000033333333%).
+Elapsed 0.01s simulation in 2.363s real (total progress: 11.333333466666666%).
+Elapsed 0.01s simulation in 2.387s real (total progress: 11.666666766666667%).
+Elapsed 0.01s simulation in 2.597s real (total progress: 12.0000003%).
+Elapsed 0.01s simulation in 2.881s real (total progress: 12.333333833333333%).
+Elapsed 0.01s simulation in 2.625s real (total progress: 12.666666866666668%).
+Elapsed 0.01s simulation in 1.979s real (total progress: 13.000000100000001%).
+Elapsed 0.01s simulation in 2.386s real (total progress: 13.333333433333333%).
+Elapsed 0.01s simulation in 2.178s real (total progress: 13.666666766666665%).
+Elapsed 0.01s simulation in 2.047s real (total progress: 14.000000300000002%).
+Elapsed 0.01s simulation in 2.204s real (total progress: 14.3333334%).
+Elapsed 0.01s simulation in 2.234s real (total progress: 14.666667033333333%).
+Elapsed 0.01s simulation in 2.134s real (total progress: 15.000000033333333%).
+Elapsed 0.01s simulation in 2.154s real (total progress: 15.333333499999998%).
+Elapsed 0.01s simulation in 2.002s real (total progress: 15.666666800000002%).
+Elapsed 0.01s simulation in 2.104s real (total progress: 16.00000006666667%).
+Elapsed 0.01s simulation in 1.985s real (total progress: 16.3333336%).
+Elapsed 0.01s simulation in 2.292s real (total progress: 16.6666667%).
+Elapsed 0.01s simulation in 2.201s real (total progress: 17.00000006666667%).
+Elapsed 0.01s simulation in 2.399s real (total progress: 17.33333336666667%).
+Elapsed 0.01s simulation in 2.286s real (total progress: 17.666666833333334%).
+Elapsed 0.01s simulation in 2.329s real (total progress: 18.000000033333333%).
+Elapsed 0.01s simulation in 2.123s real (total progress: 18.333333399999997%).
+Elapsed 0.01s simulation in 2.526s real (total progress: 18.666666833333334%).
+Elapsed 0.01s simulation in 2.711s real (total progress: 19.000000266666667%).
+Elapsed 0.01s simulation in 2.223s real (total progress: 19.333333366666665%).
+Elapsed 0.01s simulation in 2.19s real (total progress: 19.6666667%).
+Elapsed 0.01s simulation in 2.224s real (total progress: 20.00000036666667%).
+Elapsed 0.01s simulation in 2.131s real (total progress: 20.3333334%).
+Elapsed 0.01s simulation in 2.101s real (total progress: 20.666666733333333%).
+Elapsed 0.01s simulation in 2.119s real (total progress: 21.000000033333333%).
+Elapsed 0.01s simulation in 2.577s real (total progress: 21.333333433333333%).
+Elapsed 0.01s simulation in 2.601s real (total progress: 21.666667033333333%).
+Elapsed 0.01s simulation in 3.211s real (total progress: 22.000000033333333%).
+Elapsed 0.01s simulation in 2.567s real (total progress: 22.33333413333333%).
+Elapsed 0.01s simulation in 2.609s real (total progress: 22.6666669%).
+Elapsed 0.01s simulation in 3.075s real (total progress: 23.000000133333334%).
+Elapsed 0.01s simulation in 2.886s real (total progress: 23.333333466666666%).
+Elapsed 0.01s simulation in 2.778s real (total progress: 23.666666966666668%).
+Elapsed 0.01s simulation in 2.322s real (total progress: 24.000000133333334%).
+Elapsed 0.01s simulation in 2.109s real (total progress: 24.333333533333334%).
+Elapsed 0.01s simulation in 2.02s real (total progress: 24.666667033333333%).
+Elapsed 0.01s simulation in 2.549s real (total progress: 25.000000133333334%).
+Elapsed 0.01s simulation in 2.375s real (total progress: 25.3333335%).
+Elapsed 0.01s simulation in 2.104s real (total progress: 25.666667399999998%).
+Elapsed 0.01s simulation in 2.103s real (total progress: 26.000001666666666%).
+Elapsed 0.01s simulation in 1.472s real (total progress: 26.333333566666667%).
+Elapsed 0.01s simulation in 2.3s real (total progress: 26.666666833333334%).
+Elapsed 0.01s simulation in 1.737s real (total progress: 27.000000099999998%).
+Elapsed 0.01s simulation in 1.991s real (total progress: 27.333333666666665%).
+Elapsed 0.01s simulation in 1.746s real (total progress: 27.666666733333333%).
+Elapsed 0.01s simulation in 1.855s real (total progress: 28.0000003%).
+Elapsed 0.01s simulation in 1.955s real (total progress: 28.3333334%).
+Elapsed 0.01s simulation in 2.007s real (total progress: 28.666667299999997%).
+Elapsed 0.01s simulation in 1.9s real (total progress: 29.000000399999998%).
+Elapsed 0.01s simulation in 2.069s real (total progress: 29.333334%).
+Elapsed 0.01s simulation in 2.276s real (total progress: 29.6666667%).
+Elapsed 0.01s simulation in 2.217s real (total progress: 30.000000766666666%).
+Elapsed 0.01s simulation in 1.837s real (total progress: 30.333334266666668%).
+Elapsed 0.01s simulation in 2.462s real (total progress: 30.666666833333334%).
+Elapsed 0.01s simulation in 2.248s real (total progress: 31.0000001%).
+Elapsed 0.01s simulation in 2.585s real (total progress: 31.333333433333333%).
+Elapsed 0.01s simulation in 1.983s real (total progress: 31.6666667%).
+Elapsed 0.01s simulation in 2.121s real (total progress: 32.00000026666667%).
+Elapsed 0.01s simulation in 2.132s real (total progress: 32.33333346666667%).
+Elapsed 0.01s simulation in 2.416s real (total progress: 32.66666683333334%).
+Elapsed 0.01s simulation in 2.597s real (total progress: 33.00000023333333%).
+Elapsed 0.01s simulation in 2.631s real (total progress: 33.333333366666665%).
+Elapsed 0.01s simulation in 2.132s real (total progress: 33.666666766666665%).
+Elapsed 0.01s simulation in 1.982s real (total progress: 34.000000166666666%).
+Elapsed 0.01s simulation in 2.285s real (total progress: 34.333333833333334%).
+Elapsed 0.01s simulation in 2.099s real (total progress: 34.6666671%).
+Elapsed 0.01s simulation in 2.067s real (total progress: 35.00000026666667%).
+Elapsed 0.01s simulation in 2.282s real (total progress: 35.333333700000004%).
+Elapsed 0.01s simulation in 1.72s real (total progress: 35.6666692%).
+Elapsed 0.01s simulation in 2.082s real (total progress: 36.000000066666665%).
+Elapsed 0.01s simulation in 2.254s real (total progress: 36.3333339%).
+Elapsed 0.01s simulation in 1.956s real (total progress: 36.66666673333333%).
+Elapsed 0.01s simulation in 2.089s real (total progress: 37.0000001%).
+Elapsed 0.01s simulation in 2.292s real (total progress: 37.333333466666666%).
+Elapsed 0.01s simulation in 2.583s real (total progress: 37.66666686666667%).
+Elapsed 0.01s simulation in 2.355s real (total progress: 38.00000023333333%).
+Elapsed 0.01s simulation in 2.752s real (total progress: 38.33333343333333%).
+Elapsed 0.01s simulation in 2.112s real (total progress: 38.6666668%).
+Elapsed 0.01s simulation in 2.392s real (total progress: 39.000000299999996%).
+Elapsed 0.01s simulation in 2.171s real (total progress: 39.3333335%).
+Elapsed 0.01s simulation in 2.334s real (total progress: 39.66666716666667%).
+Elapsed 0.01s simulation in 2.446s real (total progress: 40.00000033333333%).
+Elapsed 0.01s simulation in 2.411s real (total progress: 40.3333335%).
+Elapsed 0.01s simulation in 2.384s real (total progress: 40.6666668%).
+Elapsed 0.01s simulation in 2.632s real (total progress: 41.000000066666665%).
+Elapsed 0.01s simulation in 2.774s real (total progress: 41.33333343333334%).
+Elapsed 0.01s simulation in 2.965s real (total progress: 41.66666673333334%).
+Elapsed 0.01s simulation in 2.582s real (total progress: 42.000000066666665%).
+Elapsed 0.01s simulation in 2.144s real (total progress: 42.3333338%).
+Elapsed 0.01s simulation in 2.454s real (total progress: 42.66666703333333%).
+Elapsed 0.01s simulation in 2.275s real (total progress: 43.000000066666665%).
+Elapsed 0.01s simulation in 2.462s real (total progress: 43.333333366666665%).
+Elapsed 0.01s simulation in 2.29s real (total progress: 43.66666743333333%).
+Elapsed 0.01s simulation in 2.04s real (total progress: 44.00000013333333%).
+Elapsed 0.01s simulation in 2.073s real (total progress: 44.333333466666666%).
+Elapsed 0.01s simulation in 3.038s real (total progress: 44.66666683333334%).
+Elapsed 0.01s simulation in 3.028s real (total progress: 45.00000003333333%).
+Elapsed 0.01s simulation in 2.193s real (total progress: 45.333333599999996%).
+Elapsed 0.01s simulation in 3.046s real (total progress: 45.6666667%).
+Elapsed 0.01s simulation in 2.214s real (total progress: 46.000000299999996%).
+Elapsed 0.01s simulation in 2.37s real (total progress: 46.33333376666667%).
+Elapsed 0.01s simulation in 2.121s real (total progress: 46.666666766666665%).
+Elapsed 0.01s simulation in 2.249s real (total progress: 47.000000066666665%).
+Elapsed 0.01s simulation in 2.405s real (total progress: 47.33333336666667%).
+Elapsed 0.01s simulation in 2.75s real (total progress: 47.66666786666667%).
+Elapsed 0.01s simulation in 2.641s real (total progress: 48.00000023333333%).
+Elapsed 0.01s simulation in 2.657s real (total progress: 48.3333337%).
+Elapsed 0.01s simulation in 2.838s real (total progress: 48.66666693333334%).
+Elapsed 0.01s simulation in 2.944s real (total progress: 49.0000001%).
+Elapsed 0.01s simulation in 3.305s real (total progress: 49.3333339%).
+Elapsed 0.01s simulation in 2.02s real (total progress: 49.66666686666667%).
+Elapsed 0.01s simulation in 2.76s real (total progress: 50.00000006666667%).
+Elapsed 0.01s simulation in 2.253s real (total progress: 50.333333599999996%).
+Elapsed 0.01s simulation in 2.54s real (total progress: 50.66666669999999%).
+Elapsed 0.01s simulation in 2.276s real (total progress: 51.00000059999999%).
+Elapsed 0.01s simulation in 2.543s real (total progress: 51.333333366666665%).
+Elapsed 0.01s simulation in 2.416s real (total progress: 51.66666673333333%).
+Elapsed 0.01s simulation in 1.909s real (total progress: 52.00000073333333%).
+Elapsed 0.01s simulation in 2.26s real (total progress: 52.33333343333333%).
+Elapsed 0.01s simulation in 2.348s real (total progress: 52.66666693333333%).
+Elapsed 0.01s simulation in 2.363s real (total progress: 53.000000066666665%).
+Elapsed 0.01s simulation in 2.691s real (total progress: 53.33333340000001%).
+Elapsed 0.01s simulation in 2.772s real (total progress: 53.6666667%).
+Elapsed 0.01s simulation in 5.941s real (total progress: 54.00000033333333%).
+Elapsed 0.01s simulation in 2.282s real (total progress: 54.333333399999994%).
+Elapsed 0.01s simulation in 2.252s real (total progress: 54.66666730000001%).
+Elapsed 0.01s simulation in 2.153s real (total progress: 55.00000013333334%).
+Elapsed 0.01s simulation in 2.511s real (total progress: 55.33333353333333%).
+Elapsed 0.01s simulation in 2.154s real (total progress: 55.66666696666667%).
+Elapsed 0.01s simulation in 2.05s real (total progress: 56.000000299999996%).
+Elapsed 0.01s simulation in 2.031s real (total progress: 56.333333399999994%).
+Elapsed 0.01s simulation in 2.371s real (total progress: 56.666666766666665%).
+Elapsed 0.01s simulation in 3.125s real (total progress: 57.0000001%).
+Elapsed 0.01s simulation in 2.766s real (total progress: 57.333333366666665%).
+Elapsed 0.01s simulation in 2.529s real (total progress: 57.66666696666667%).
+Elapsed 0.01s simulation in 2.447s real (total progress: 58.00000033333333%).
+Elapsed 0.01s simulation in 2.804s real (total progress: 58.33333346666667%).
+Elapsed 0.01s simulation in 2.542s real (total progress: 58.66666673333333%).
+Elapsed 0.01s simulation in 1.546s real (total progress: 59.00000046666667%).
+Elapsed 0.01s simulation in 1.809s real (total progress: 59.33333343333334%).
+Elapsed 0.01s simulation in 1.577s real (total progress: 59.66666670000001%).
+Elapsed 0.01s simulation in 1.898s real (total progress: 60.0000002%).
+Elapsed 0.01s simulation in 1.79s real (total progress: 60.33333363333333%).
+Elapsed 0.01s simulation in 2.055s real (total progress: 60.666666899999996%).
+Elapsed 0.01s simulation in 1.987s real (total progress: 61.000000433333334%).
+Elapsed 0.01s simulation in 1.565s real (total progress: 61.3333338%).
+Elapsed 0.01s simulation in 1.597s real (total progress: 61.66666743333333%).
+Elapsed 0.01s simulation in 1.471s real (total progress: 62.000000166666666%).
+Elapsed 0.01s simulation in 2.033s real (total progress: 62.33333353333334%).
+Elapsed 0.01s simulation in 1.787s real (total progress: 62.66666696666666%).
+Elapsed 0.01s simulation in 1.687s real (total progress: 63.00000013333333%).
+Elapsed 0.01s simulation in 2.013s real (total progress: 63.333333800000005%).
+Elapsed 0.01s simulation in 1.826s real (total progress: 63.66666669999999%).
+Elapsed 0.01s simulation in 1.658s real (total progress: 64.0000001%).
+Elapsed 0.01s simulation in 1.958s real (total progress: 64.33333396666666%).
+Elapsed 0.01s simulation in 1.806s real (total progress: 64.6666672%).
+Elapsed 0.01s simulation in 1.53s real (total progress: 65.0000002%).
+Elapsed 0.01s simulation in 1.498s real (total progress: 65.33333346666666%).
+Elapsed 0.01s simulation in 1.737s real (total progress: 65.66666673333333%).
+Elapsed 0.01s simulation in 1.538s real (total progress: 66.0000003%).
+Elapsed 0.01s simulation in 1.74s real (total progress: 66.3333336%).
+Elapsed 0.01s simulation in 2.16s real (total progress: 66.66666783333334%).
+Elapsed 0.01s simulation in 1.744s real (total progress: 67.00000026666667%).
+Elapsed 0.01s simulation in 2.266s real (total progress: 67.33333336666666%).
+Elapsed 0.01s simulation in 2.493s real (total progress: 67.6666668%).
+Elapsed 0.01s simulation in 2.528s real (total progress: 68.00000026666667%).
+Elapsed 0.01s simulation in 2.097s real (total progress: 68.33333350000001%).
+Elapsed 0.01s simulation in 2.237s real (total progress: 68.666667%).
+Elapsed 0.01s simulation in 2.084s real (total progress: 69.00000003333334%).
+Elapsed 0.01s simulation in 1.887s real (total progress: 69.3333339%).
+Elapsed 0.01s simulation in 2.34s real (total progress: 69.66666670000001%).
+Elapsed 0.01s simulation in 2.174s real (total progress: 70.00000010000001%).
+Elapsed 0.01s simulation in 2.19s real (total progress: 70.33333336666666%).
+Elapsed 0.01s simulation in 2.365s real (total progress: 70.66666673333334%).
+Elapsed 0.01s simulation in 2.693s real (total progress: 71.00000046666666%).
+Elapsed 0.01s simulation in 2.873s real (total progress: 71.33333343333334%).
+Elapsed 0.01s simulation in 2.875s real (total progress: 71.66666703333333%).
+Elapsed 0.01s simulation in 2.266s real (total progress: 72.00000046666666%).
+Elapsed 0.01s simulation in 2.103s real (total progress: 72.33333383333334%).
+Elapsed 0.01s simulation in 2.84s real (total progress: 72.66666670000001%).
+Elapsed 0.01s simulation in 2.124s real (total progress: 73.0000003%).
+Elapsed 0.01s simulation in 1.987s real (total progress: 73.33333336666666%).
+Elapsed 0.01s simulation in 1.825s real (total progress: 73.66666699999999%).
+Elapsed 0.01s simulation in 1.801s real (total progress: 74.00000016666667%).
+Elapsed 0.01s simulation in 1.587s real (total progress: 74.33333343333334%).
+Elapsed 0.01s simulation in 2.016s real (total progress: 74.6666667%).
+Elapsed 0.01s simulation in 1.955s real (total progress: 75.0000005%).
+Elapsed 0.01s simulation in 1.485s real (total progress: 75.3333351%).
+Elapsed 0.01s simulation in 1.407s real (total progress: 75.66666683333332%).
+Elapsed 0.01s simulation in 1.411s real (total progress: 76.00000019999999%).
+Elapsed 0.01s simulation in 1.325s real (total progress: 76.33333336666666%).
+Elapsed 0.01s simulation in 1.851s real (total progress: 76.66666693333333%).
+Elapsed 0.01s simulation in 2.845s real (total progress: 77.00000016666667%).
+Elapsed 0.01s simulation in 1.794s real (total progress: 77.3333335%).
+Elapsed 0.01s simulation in 1.725s real (total progress: 77.66666703333334%).
+Elapsed 0.01s simulation in 1.531s real (total progress: 78.00000023333334%).
+Elapsed 0.01s simulation in 1.65s real (total progress: 78.33333346666666%).
+Elapsed 0.01s simulation in 2.192s real (total progress: 78.66666696666667%).
+Elapsed 0.01s simulation in 2.018s real (total progress: 79.00000023333334%).
+Elapsed 0.01s simulation in 1.737s real (total progress: 79.33333346666667%).
+Elapsed 0.01s simulation in 2.108s real (total progress: 79.6666667%).
+Elapsed 0.01s simulation in 1.589s real (total progress: 80.00000006666667%).
+Elapsed 0.01s simulation in 1.567s real (total progress: 80.33333343333334%).
+Elapsed 0.01s simulation in 1.589s real (total progress: 80.66666683333334%).
+Elapsed 0.01s simulation in 2.024s real (total progress: 81.00000010000001%).
+Elapsed 0.01s simulation in 1.977s real (total progress: 81.33333353333333%).
+Elapsed 0.01s simulation in 2.103s real (total progress: 81.6666668%).
+Elapsed 0.01s simulation in 1.897s real (total progress: 82.00000026666666%).
+Elapsed 0.01s simulation in 2.141s real (total progress: 82.33333343333334%).
+Elapsed 0.01s simulation in 1.672s real (total progress: 82.66666676666667%).
+Elapsed 0.01s simulation in 1.629s real (total progress: 83.0000003%).
+Elapsed 0.01s simulation in 1.522s real (total progress: 83.33333356666667%).
+Elapsed 0.01s simulation in 2.106s real (total progress: 83.66666713333333%).
+Elapsed 0.01s simulation in 2.19s real (total progress: 84.00000016666667%).
+Elapsed 0.01s simulation in 1.641s real (total progress: 84.3333339%).
+Elapsed 0.01s simulation in 1.438s real (total progress: 84.66666673333333%).
+Elapsed 0.01s simulation in 1.576s real (total progress: 85.0000003%).
+Elapsed 0.01s simulation in 1.797s real (total progress: 85.33333356666667%).
+Elapsed 0.01s simulation in 1.425s real (total progress: 85.66667129999999%).
+Elapsed 0.01s simulation in 1.57s real (total progress: 86.00000013333333%).
+Elapsed 0.01s simulation in 1.351s real (total progress: 86.33333336666666%).
+Elapsed 0.01s simulation in 1.349s real (total progress: 86.666667%).
+Elapsed 0.01s simulation in 1.26s real (total progress: 87.0000003%).
+Elapsed 0.01s simulation in 1.376s real (total progress: 87.3333335%).
+Elapsed 0.01s simulation in 1.538s real (total progress: 87.66666673333333%).
+Elapsed 0.01s simulation in 2.165s real (total progress: 88.0000001%).
+Elapsed 0.01s simulation in 1.745s real (total progress: 88.3333338%).
+Elapsed 0.01s simulation in 1.491s real (total progress: 88.66666683333332%).
+Elapsed 0.01s simulation in 1.597s real (total progress: 89.00000023333334%).
+Elapsed 0.01s simulation in 1.845s real (total progress: 89.33333353333333%).
+Elapsed 0.01s simulation in 1.889s real (total progress: 89.6666668%).
+Elapsed 0.01s simulation in 2.447s real (total progress: 90.00000006666666%).
+Elapsed 0.01s simulation in 1.385s real (total progress: 90.3333334%).
+Elapsed 0.01s simulation in 1.606s real (total progress: 90.6666667%).
+Elapsed 0.01s simulation in 1.414s real (total progress: 91.00000063333333%).
+Elapsed 0.01s simulation in 1.402s real (total progress: 91.33333346666667%).
+Elapsed 0.01s simulation in 1.64s real (total progress: 91.66666726666666%).
+Elapsed 0.01s simulation in 1.542s real (total progress: 92.00000006666667%).
+Elapsed 0.01s simulation in 1.493s real (total progress: 92.33333416666667%).
+Elapsed 0.01s simulation in 1.423s real (total progress: 92.66666676666667%).
+Elapsed 0.01s simulation in 1.517s real (total progress: 93.00000003333334%).
+Elapsed 0.01s simulation in 1.539s real (total progress: 93.33333379999999%).
+Elapsed 0.01s simulation in 1.588s real (total progress: 93.66666683333334%).
+Elapsed 0.01s simulation in 1.667s real (total progress: 94.00000059999999%).
+Elapsed 0.01s simulation in 1.832s real (total progress: 94.33333363333334%).
+Elapsed 0.01s simulation in 2.133s real (total progress: 94.66666676666667%).
+Elapsed 0.01s simulation in 1.981s real (total progress: 95.00000010000001%).
+Elapsed 0.01s simulation in 2.009s real (total progress: 95.33333363333332%).
+Elapsed 0.01s simulation in 2.036s real (total progress: 95.66666670000001%).
+Elapsed 0.01s simulation in 1.981s real (total progress: 96.00000006666667%).
+Elapsed 0.01s simulation in 1.689s real (total progress: 96.33333363333332%).
+Elapsed 0.01s simulation in 1.56s real (total progress: 96.6666668%).
+Elapsed 0.01s simulation in 1.737s real (total progress: 97.00000006666667%).
+Elapsed 0.01s simulation in 1.828s real (total progress: 97.33333353333333%).
+Elapsed 0.01s simulation in 1.621s real (total progress: 97.66666670000001%).
+Elapsed 0.01s simulation in 1.887s real (total progress: 98.0000001%).
+Elapsed 0.01s simulation in 1.838s real (total progress: 98.33333363333332%).
+Elapsed 0.01s simulation in 1.847s real (total progress: 98.6666668%).
+Elapsed 0.01s simulation in 1.99s real (total progress: 99.00000043333334%).
+Elapsed 0.01s simulation in 1.996s real (total progress: 99.33333336666666%).
+Elapsed 0.01s simulation in 1.965s real (total progress: 99.666667%).
+Elapsed 0.01s simulation in 2.278s real (total progress: 100.00000033333333%).
+Simulation finished (simulated 3.0s in a real-world time of 636.23s).

@@ -1,0 +1,17 @@
+Seed randomly chosen: FALSE
+Seed: 8798237589
+OVERRODE_TOPOLOGY_FILE_WITH_SERVER_EXTENSION: servers/node=5
+ARG_OVERRIDE_PARAM(scenario_topology_file): temp/results/3_a2a_increasing/xpander_n216_d11_ksp_8_actservers_40_flows_6666_runtime_45.0045s_ecn_threshold_30000_intermediary_uniform_flowlet_gap_50000/extended_topology.txt
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=150000, ecnThresholdKBytes=30000)
+Network device flowlet intermediary: UNIFORM
+Network device: SOURCE_ROUTING_SWITCH(numNodes=1296)
+Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
+Transport layer: SIMPLE_DCTCP
+Routing: K_SHORTEST_PATHS
+Flow planner flow size dist.: pFabric web search upper bound discrete
+A2A_FRACTION_CHOSEN_TORS: [0, 1, 2, 3, 4, 5, 6, 7]
+Flow planner: POISSON_ARRIVAL(lambda=6666.0, pairDistribution=ALL_TO_ALL_FRACTION)
+Flow planner number flows: 299402
+Flow planner mean inter-arrival time: 150314
+Flow planner expected inter-arrival time: 150015.00150015
+Flow planner poisson rate lambda (flow starts/s): 6666.0

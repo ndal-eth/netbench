@@ -1,0 +1,16 @@
+all_port_99.9th_utilization=96.8933031085
+all_port_99th_utilization=69.1674833933
+all_port_mean_utilization=3.71028770128
+all_port_median_utilization=0.991860635174
+all_port_num=2048
+all_port_std_utilization=11.5315371535
+all_port_unique_sources=128
+all_port_unique_targets=128
+non_server_port_num=0
+server_port_99.9th_utilization=96.8933031085
+server_port_99th_utilization=69.1674833933
+server_port_mean_utilization=3.71028770128
+server_port_median_utilization=0.991860635174
+server_port_num=2048
+server_port_std_utilization=11.5315371535
+server_port_zero_num=0

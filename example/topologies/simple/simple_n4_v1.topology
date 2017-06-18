@@ -1,0 +1,21 @@
+# Topology:
+# 0--1--2
+#    |
+#    3
+#
+# Node 0, 2 and 3 are ToRs, 1 is only a switch.
+
+# Details
+|V|=4
+|E|=6
+ToRs=set(0,2,3)
+Servers=set(0,2,3)
+Switches=set(1)
+
+# Links
+0 1
+1 0
+1 2
+2 1
+1 3
+3 1

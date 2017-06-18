@@ -1,0 +1,18 @@
+Seed randomly chosen: FALSE
+Seed: 8798237589
+OVERRODE_TOPOLOGY_FILE_WITH_SERVER_EXTENSION: servers/node=5
+ARG_OVERRIDE_PARAM(scenario_topology_file): temp/results/5_pairings_increasing/xpander_n216_d11_hybrid_actservers_640_flows_106666_runtime_4.68753s_ecn_threshold_30000_intermediary_uniform_flowlet_gap_50000/extended_topology.txt
+Port: ECN_TAIL_DROP(maxQueueSizeBytes=150000, ecnThresholdKBytes=30000)
+Network device flowlet intermediary: UNIFORM
+Network device: ECMP_THEN_VALIANT_SWITCH(numNodes=1296)
+Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
+Transport layer: SIMPLE_DCTCP
+Routing: ECMP
+Flow planner flow size dist.: pFabric web search upper bound discrete
+PAIRING_NUM_CHOSEN_TORS: 128
+PAIRINGS_FRACTION_CHOSEN_TORS: [(1,116), (3,101), (8,108), (11,94), (14,97), (15,87), (16,39), (17,96), (20,34), (21,123), (22,43), (26,113), (27,105), (28,60), (29,24), (30,10), (32,18), (33,57), (38,9), (42,5), (44,68), (45,92), (47,23), (48,41), (50,102), (54,40), (55,80), (56,112), (58,63), (64,85), (66,65), (67,25), (69,19), (70,122), (71,13), (72,31), (73,86), (74,12), (75,110), (76,35), (77,7), (81,49), (82,62), (83,51), (84,78), (88,36), (91,4), (93,89), (95,90), (98,53), (103,119), (104,106), (107,46), (109,2), (111,100), (114,59), (115,99), (117,61), (120,79), (121,37), (124,52), (125,0), (126,6), (127,118)]
+Flow planner: POISSON_ARRIVAL(lambda=106666.0, pairDistribution=PAIRINGS_FRACTION)
+Flow planner number flows: 500185
+Flow planner mean inter-arrival time: 9371
+Flow planner expected inter-arrival time: 9375.058594116213
+Flow planner poisson rate lambda (flow starts/s): 106666.0

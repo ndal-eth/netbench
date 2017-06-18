@@ -1,0 +1,56 @@
+# Dumbbell with n=18, of which 8 ToRs on either side, connected by a single link.
+#
+# 0-\     /-8
+# 1-\     /-9
+# 2-\     /-10
+# 3-\     /-11
+# 4--16-17--12
+# 5-/     \-13
+# 6-/     \-14
+# 7-/     \-15
+#
+# As in, 0-7 have a direct private link to 16, 16 shares a single link with 17,
+# and 8-15 have a direct private link to 17
+
+# Details
+|V|=18
+|E|=34
+ToRs=incl_range(0,15)
+Servers=incl_range(0,15)
+Switches=set(16,17)
+
+# Links
+0 16
+1 16
+2 16
+3 16
+4 16
+5 16
+6 16
+7 16
+16 0
+16 1
+16 2
+16 3
+16 4
+16 5
+16 6
+16 7
+16 17
+17 16
+17 8
+17 9
+17 10
+17 11
+17 12
+17 13
+17 14
+17 15
+8 17
+9 17
+10 17
+11 17
+12 17
+13 17
+14 17
+15 17
