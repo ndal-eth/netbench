@@ -37,11 +37,11 @@ The framework is written based on five core components:
 
 Look into `ch.ethz.systems.netbench.ext.demo` for an impression how to extend the framework.  If you've written an extension, it is necessary to add it in its respective selector in `ch.ethz.systems.netbench.run`. If you've added new properties, be sure to add them in the `ch.ethz.systems.netbench.config.BaseAllowedProperties` class.
 
-More information about the framework can be found in the thesis located at [https://www.research-collection.ethz.ch/handle/20.500.11850/156350](https://www.research-collection.ethz.ch/handle/20.500.11850/156350) (section 4.2: NetBench: Discete Packet Simulator).
+More information about the framework can be found in the thesis located at [https://www.research-collection.ethz.ch/handle/20.500.11850/156350](https://www.research-collection.ethz.ch/handle/20.500.11850/156350) (section 4.2: NetBench: Discrete Packet Simulator).
 
 ## Reproducing "Beyond fat-trees without antennae, mirrors, and disco-balls"
 
-The packet simulations in the paper "Beyond fat-trees without antennae, mirros, and disco-balls" (SIGCOMM 2017), have been run using the first commit of this repository.
+The packet simulations in the paper "Beyond fat-trees without antennae, mirrors, and disco-balls" (SIGCOMM 2017), have been run using the first commit of this repository.
 
 #### General remarks about structure
 
@@ -51,7 +51,7 @@ The packet simulations in the paper "Beyond fat-trees without antennae, mirros, 
 
 3. All run configurations are placed with the `./private/runs` folder, in their respective sub-folders (e.g. `./private/runs/1_failcases`, `./private/runs/9_oversub`);
 
-4. The output of the results are written to the `./temp/results` folder, in their respective output sub-folders (e.g. `./temp/results/1_failcases`, `./temp/results/9_oversub`, ...);
+4. The output of the runs are written to the `./temp/results` folder, in their respective output sub-folders (e.g. `./temp/results/1_failcases`, `./temp/results/9_oversub`, ...);
 
 5. Directly in the `./private` folder is *analyze_all.sh*, which automatically goes over all the generated results in `./temp/results` and creates in each run folder the `analysis_1s` folder, which contains statistics later used in the plot aggregation;
 
