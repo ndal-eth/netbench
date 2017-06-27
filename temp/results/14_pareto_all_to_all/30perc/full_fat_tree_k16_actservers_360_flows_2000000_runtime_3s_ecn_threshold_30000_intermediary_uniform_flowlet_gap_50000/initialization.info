@@ -8,7 +8,7 @@ Network device: ECMP_SWITCH(numNodes=1344)
 Link: PERFECT_SIMPLE_LINK(delayNs=20, bandwidthBitPerNs=10)
 Transport layer: SIMPLE_DCTCP
 Routing: ECMP
-A2A_FRACTION_CHOSEN_TORS: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+A2A_FRACTION_CHOSEN_TORS: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
 Flow planner: POISSON_ARRIVAL(lambda=2000000.0, pairDistribution=ALL_TO_ALL_FRACTION)
 Flow planner number flows: 6008266
 Flow planner mean inter-arrival time: 499
