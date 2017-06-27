@@ -4,7 +4,7 @@
 ###
 
 # Note you need gnuplot 4.4 for the pdfcairo terminal.
-set terminal pdfcairo font "Gill Sans, 14" linewidth 1.5 rounded dashed
+set terminal pdfcairo font "Helvetica, 16" linewidth 1.5 rounded dashed
 
 # Line style for axes
 set style line 80 lt rgb "#808080"
@@ -33,7 +33,7 @@ set border 3 back linestyle 80 # Remove border on top and right.  These
 set style line 1 lt rgb "#2177b0" lw 3 pt 6 ps 0
 set style line 2 lt rgb "#fc7f2b" lw 3 pt 1 ps 0
 set style line 3 lt rgb "#2f9e37" lw 2 pt 2 ps 1.4
-set style line 4 lt rgb "#d42a2d" lw 2 pt 3 ps 1
+set style line 4 lt rgb "#d42a2d" lw 2 pt 8 ps 1.3
 set style line 5 lt rgb "#9167b8" lw 1.6 pt 3 ps 1
 set style line 6 lt rgb "#8a554c" lw 1.6 pt 7
 set style line 7 lt rgb "#e079be" lw 1.6 pt 6 ps 1
@@ -66,8 +66,8 @@ set key height 4.3
 set key nobox
 
 #
-plot    "fs_pareto_s_1.05_mu_100KB_cdf.txt" using 1:2 title "Pareto-Hull" smooth unique w lp ls 2, \
-        "fs_pfabric_web_search_cdf.txt" using 1:2 title "pFabric Web Search" smooth unique w lp ls 1, \
+plot    "fs_pareto_s_1.05_mu_100KB_cdf.txt" using 1:2 title "Pareto-HULL" smooth unique w lp ls 2, \
+        "fs_pfabric_web_search_cdf.txt" using 1:2 title "pFabric Web search" smooth unique w lp ls 1, \
 
 
 
