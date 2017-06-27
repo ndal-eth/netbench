@@ -19,8 +19,8 @@ k_for_k_shortest_paths=8
 # 360 servers (45x8, 72x5)
 flows_per_s=500000
 actservers=360
-a2a_fraction_ft=0.355
-a2a_fraction_xp=0.3334
+a2a_fraction_ft=0.32
+a2a_fraction_xp=0.3
 runtime=`calc ${num_flows} / ${flows_per_s}`;
 
 ssh user@machine.com "cd /path/to/folder/netbench; screen -d -m ../java/jre1.8.0_131/bin/java -ea -jar NetBench.jar private/runs/3_4_all_to_all_fraction/full_fat_tree_k16.properties run_folder_name=14_pareto_all_to_all/30perc/full_fat_tree_k16_actservers_${actservers}_flows_${flows_per_s}_runtime_${runtime}s_ecn_threshold_${ecn_threshold}_intermediary_${intermediary}_flowlet_gap_${FLOWLET_GAP_NS} output_port_ecn_threshold_k_bytes=${ecn_threshold} traffic_lambda_flow_starts_per_s=${flows_per_s} run_time_s=${runtime} network_device_intermediary=${intermediary} FLOWLET_GAP_NS=${FLOWLET_GAP_NS} traffic_flow_size_dist=${traffic_flow_size_dist} traffic_flow_size_dist_pareto_shape=1.05 traffic_flow_size_dist_pareto_mean_kilobytes=100 traffic_probabilities_active_fraction=${a2a_fraction_ft}"
@@ -35,8 +35,8 @@ echo "Increasing pairings fraction deployment (${flows_per_s}) finished."
 # 360 servers (45x8, 72x5)
 flows_per_s=1000000
 actservers=360
-a2a_fraction_ft=0.355
-a2a_fraction_xp=0.3334
+a2a_fraction_ft=0.32
+a2a_fraction_xp=0.3
 runtime=`calc ${num_flows} / ${flows_per_s}`;
 
 ssh user@machine.com "cd /path/to/folder/netbench; screen -d -m ../java/jre1.8.0_131/bin/java -ea -jar NetBench.jar private/runs/3_4_all_to_all_fraction/full_fat_tree_k16.properties run_folder_name=14_pareto_all_to_all/30perc/full_fat_tree_k16_actservers_${actservers}_flows_${flows_per_s}_runtime_${runtime}s_ecn_threshold_${ecn_threshold}_intermediary_${intermediary}_flowlet_gap_${FLOWLET_GAP_NS} output_port_ecn_threshold_k_bytes=${ecn_threshold} traffic_lambda_flow_starts_per_s=${flows_per_s} run_time_s=${runtime} network_device_intermediary=${intermediary} FLOWLET_GAP_NS=${FLOWLET_GAP_NS} traffic_flow_size_dist=${traffic_flow_size_dist} traffic_flow_size_dist_pareto_shape=1.05 traffic_flow_size_dist_pareto_mean_kilobytes=100 traffic_probabilities_active_fraction=${a2a_fraction_ft}"
@@ -51,8 +51,8 @@ echo "Increasing pairings fraction deployment (${flows_per_s}) finished."
 # 360 servers (45x8, 72x5)
 flows_per_s=2000000
 actservers=360
-a2a_fraction_ft=0.355
-a2a_fraction_xp=0.3334
+a2a_fraction_ft=0.32
+a2a_fraction_xp=0.3
 runtime=`calc ${num_flows} / ${flows_per_s}`;
 
 ssh user@machine.com "cd /path/to/folder/netbench; screen -d -m ../java/jre1.8.0_131/bin/java -ea -jar NetBench.jar private/runs/3_4_all_to_all_fraction/full_fat_tree_k16.properties run_folder_name=14_pareto_all_to_all/30perc/full_fat_tree_k16_actservers_${actservers}_flows_${flows_per_s}_runtime_${runtime}s_ecn_threshold_${ecn_threshold}_intermediary_${intermediary}_flowlet_gap_${FLOWLET_GAP_NS} output_port_ecn_threshold_k_bytes=${ecn_threshold} traffic_lambda_flow_starts_per_s=${flows_per_s} run_time_s=${runtime} network_device_intermediary=${intermediary} FLOWLET_GAP_NS=${FLOWLET_GAP_NS} traffic_flow_size_dist=${traffic_flow_size_dist} traffic_flow_size_dist_pareto_shape=1.05 traffic_flow_size_dist_pareto_mean_kilobytes=100 traffic_probabilities_active_fraction=${a2a_fraction_ft}"
@@ -67,8 +67,8 @@ echo "Increasing pairings fraction deployment (${flows_per_s}) finished."
 # 360 servers (45x8, 72x5)
 flows_per_s=3000000
 actservers=360
-a2a_fraction_ft=0.355
-a2a_fraction_xp=0.3334
+a2a_fraction_ft=0.32
+a2a_fraction_xp=0.3
 runtime=`calc ${num_flows} / ${flows_per_s}`;
 
 ssh user@machine.com "cd /path/to/folder/netbench; screen -d -m ../java/jre1.8.0_131/bin/java -ea -jar NetBench.jar private/runs/3_4_all_to_all_fraction/full_fat_tree_k16.properties run_folder_name=14_pareto_all_to_all/30perc/full_fat_tree_k16_actservers_${actservers}_flows_${flows_per_s}_runtime_${runtime}s_ecn_threshold_${ecn_threshold}_intermediary_${intermediary}_flowlet_gap_${FLOWLET_GAP_NS} output_port_ecn_threshold_k_bytes=${ecn_threshold} traffic_lambda_flow_starts_per_s=${flows_per_s} run_time_s=${runtime} network_device_intermediary=${intermediary} FLOWLET_GAP_NS=${FLOWLET_GAP_NS} traffic_flow_size_dist=${traffic_flow_size_dist} traffic_flow_size_dist_pareto_shape=1.05 traffic_flow_size_dist_pareto_mean_kilobytes=100 traffic_probabilities_active_fraction=${a2a_fraction_ft}"
